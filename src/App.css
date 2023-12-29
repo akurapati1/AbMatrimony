@@ -50,12 +50,15 @@ button {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #f0f0f0; /* Light gray background */
+  background: url('wp8201930.jpg') no-repeat center center fixed;
+  background-size: cover;
+  backdrop-filter: blur(8px);
 }
 
 .left-side {
   text-align: center;
   margin-right: 20px; /* Add margin for spacing */
+  
 }
 
 .right-side {
@@ -76,6 +79,7 @@ button {
 
 .input-container {
   margin-bottom: 15px;
+  color: antiquewhite;
 }
 
 .input-container label {
@@ -111,3 +115,39 @@ button:hover {
 }
 
 /* Add additional styling as needed */
+/* App.css */
+
+/* Add the following styles to horizontally align the navbar items */
+.navbar {
+  background: transparent;
+  overflow: hidden;
+  justify-content: left;
+
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  justify-content: left;
+}
+
+.navbar li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.navbar a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.navbar a:hover {
+  color: black;
+  transform: scale(1.1); /* Increase the size by 10% on hover */
+}
